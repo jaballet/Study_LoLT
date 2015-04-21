@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center_horizontal"
+        android:text="(4)Your residence?"
+        android:textColor="#F5FFFA"
+        android:textSize="@dimen/fontSizeQuestion"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:id="@+id/textview01" />
+   <EditText
+       android:id="@+id/edit0"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="100dp"
+       android:gravity="center"
+       android:hint="City"
+       android:background="@drawable/edittextstyle"
+       android:inputType="text"
+        android:textSize="@dimen/fontSizeDefault"
+       android:singleLine="true" />
+   <EditText
+       android:id="@+id/edit1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:gravity="center"
+       android:hint="Address"
+       android:background="@drawable/edittextstyle"
+       android:inputType="text"
+        android:textSize="@dimen/fontSizeDefault"
+       android:singleLine="true" />
+    <EditText
+       android:id="@+id/edit2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+       android:gravity="center"
+       android:hint="Zipcode"
+       android:background="@drawable/edittextstyle"
+       android:inputType="text"
+        android:textSize="@dimen/fontSizeDefault"
+       android:singleLine="true" />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:gravity="bottom">
+   <Button
+        android:id="@+id/button_confirm_residence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+       android:textSize="@dimen/fontSizeDefault"/>
+   <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="@dimen/fontSizeDefault"/>
+</LinearLayout>
+</LinearLayout>

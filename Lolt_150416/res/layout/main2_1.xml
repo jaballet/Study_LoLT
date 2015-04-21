@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center_vertical|center"
+        android:padding="5dip"
+        android:text="Residental Environment"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/fontSizeQuestion" />
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="This is a survey of satisfaction of residential environments;public transport, commercial service,leisure facility,and living floor spaces"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button_confirm_residence_statement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="Confirm"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="Back"
+            android:textSize="10pt" />
+    </LinearLayout>
+</LinearLayout>

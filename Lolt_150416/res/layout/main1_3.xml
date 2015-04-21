@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+       <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center"
+        android:padding="5dip"
+        android:layout_weight="1"
+        android:text="Personal information"
+        android:textSize="15pt" />
+<Button
+        android:id="@+id/button_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/button_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sex"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/button_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:enabled="false" />
+    
+    <Button
+        android:id="@+id/button_residence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Residence"
+        android:enabled="false" />
+    
+    <Button
+        android:id="@+id/button_drive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drive"
+        android:enabled="false" />
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+</LinearLayout>

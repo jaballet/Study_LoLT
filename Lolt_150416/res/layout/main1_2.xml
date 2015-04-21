@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+       <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center"
+        android:padding="5dip"
+        android:layout_weight="1"
+        android:text="LoLTravel"
+        android:textSize="15pt" /> 
+
+    <Button
+        android:id="@+id/button_personal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal information"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/button_residential"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Residential environment"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/button_leisure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Leisure travel"
+        android:enabled="false" />
+    
+    <Button
+        android:id="@+id/button_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:enabled="false" />
+    
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+    
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:gravity="bottom"  >
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#000000"
+        android:gravity="center_vertical|center"
+        android:padding="5dip"
+        android:text="(3)Leisure facility Satisfaction"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/fontSizeQuestion"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button_leisure_rate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="① Very bad" />
+
+        <Button
+            android:id="@+id/button_leisure_rate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="② Bad" />
+
+        <Button
+            android:id="@+id/button_leisure_rate3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="③ So so" />
+
+        <Button
+            android:id="@+id/button_leisure_rate4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="④ Good" />
+
+        <Button
+            android:id="@+id/button_leisure_rate5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⑤ Very good" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

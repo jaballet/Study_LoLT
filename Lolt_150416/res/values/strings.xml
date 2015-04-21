@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lolt</string>
+    <string name="LolTravel">LolTravel</string>
+    <string name="name">최창원</string>
+    <string name="facebook">Facebook registration</string>
+    <string name="title_activity_jang">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_activity3_2">MainActivity3_2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_post_link">PostLinkActivity</string>
+
+</resources>

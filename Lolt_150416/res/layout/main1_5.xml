@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#000000"
+        android:gravity="center_vertical|center"
+        android:padding="5dip"
+        android:text="(2)Check your sex?"
+        android:textColor="#F5FFFA"
+        android:textSize="@dimen/fontSizeQuestion" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/button_male"
+            android:background="@drawable/buttonselector"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:textSize="@dimen/fontSizeDefault"
+            android:text="Male"  />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/button_female"
+            android:background="@drawable/buttonselector"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:textSize="@dimen/fontSizeDefault"
+            android:text="Female"  />
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="bottom"
+         android:orientation="vertical">
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="@dimen/fontSizeDefault"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="bottom" />
+</LinearLayout>
+</LinearLayout>

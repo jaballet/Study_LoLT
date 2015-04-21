@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center_vertical|center"
+        android:padding="5dip"
+        android:text="Residential Environment"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/fontSizeQuestion"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:background="#ffffff">
+        <Button
+            android:id="@+id/button_public"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(1) Public transport" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(2) Commercial service"
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(3) Leisure facility"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(4) Green spaces"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(5) Living floor space"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
